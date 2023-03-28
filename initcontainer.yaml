@@ -11,4 +11,4 @@ spec:
   initContainers:
     - name: init-container
       image: busybox
-      command: ['sh', '-c', 'until nslookup myapp; do echo waiting for myapp; sleep 2; done;']
+      command: ['sh', '-c', 'echo "testing.."; sleep 2;']
