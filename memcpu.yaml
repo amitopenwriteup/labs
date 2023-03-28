@@ -5,11 +5,11 @@ metadata:
 spec:
   containers:
   - name: my-container
-    image: my-image
+    image: nginx
     resources:
       limits:
         memory: "1Gi"
         cpu: "0.5"
       requests:
         memory: "512Mi"
-        cpu: "0.25"`
+        cpu: "0.25"
