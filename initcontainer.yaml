@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: app-container
-      image: my-app-image
+      image: busybox
       # command: [ "app" ]
       # args: [ "-config", "/app/config.yaml" ]
   initContainers:
